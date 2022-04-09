@@ -80,7 +80,6 @@ pypiwin32==223
 PyQt5==5.11.3
 PyQt5-sip==4.19.17
 pyTelegramBotAPI==3.6.6
-python-box==3.4.2
 pywin32==227
 PyYAML==5.1
 rabbitmq==0.2.0
