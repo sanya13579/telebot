@@ -3,7 +3,7 @@ import os
 from emoji import emojize
 
 # токен выдается при регистрации приложения
-TOKEN = '1936442087:AAHbkymWoD2poXdnYk1HjoMYshJcxQREe2c'
+TOKEN = '5060282753:AAFUTPI6Wj8Hr7CSSwXkpl68SD2vLYAAVm8'
 # название БД
 NAME_DB = 'products.db'
 # версия приложения
@@ -20,12 +20,11 @@ COUNT = 0
 
 # кнопки управления
 KEYBOARD = {
-    'CHOOSE_GOODS': emojize(':open_file_folder: Выбрать товар'),
+    'CHOOSE_GOODS': emojize(':open_file_folder: Выбрать ответы'),
     'INFO': emojize(':speech_balloon: О магазине'),
     'SETTINGS': emojize('⚙️ Настройки'),
-    'SEMIPRODUCT': emojize(':pizza: Полуфабрикаты'),
-    'GROCERY': emojize(':bread: Бакалея'),
-    'ICE_CREAM': emojize(':shaved_ice: Мороженое'),
+    'SEMIPRODUCT': emojize(':books: Ответы ЕГЭ 2022'),
+    'GROCERY': emojize(':books: Ответы ОГЭ 2022'),
     '<<': emojize('⏪'),
     '>>': emojize('⏩'),
     'BACK_STEP': emojize('◀️'),
